@@ -7,7 +7,7 @@
     font-family: poppins;
  }
 
-:root {
+ :root {
     --primary: #060A06;
     --font_nav: #FFFFFF;
     --lets_but: #352DEB;
@@ -114,27 +114,22 @@ form .user-detail .input-box .details {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-}
-
+ }
+ 
+ #sub {
+    margin-left: 250px;
+ }
+ 
  .submit {
     text-decoration: none;
-    padding: 10px 50px;
-    border: 2px solid #FFFFFF;
-    border-radius: 45px;
     font-size: 24px;
     font-weight: 400;
     color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 3px solid white;
+ }
+ 
+ .submit:hover{
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
-    margin-left: 600px;
-    text-align: center;
- }
-
- .submit:hover {
-    background-color: #555; 
-    color: white;
-    cursor: pointer;
- }
- .wrap{
-    margin: auto;
-    max-width: 800px;
  }
