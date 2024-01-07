@@ -94,6 +94,7 @@
 .container .title1 {
    font-size: 32px;
    font-weight: 500;
+   text-align: center;
 }
 
 form .user-detail .input-box {
