@@ -35,6 +35,7 @@ body {
     font-family: poppins;
     font-size: 110px;
     font-weight: 500;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin: 40px;
@@ -113,12 +114,12 @@ form .user-detail .input-box .details {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+   
 }
 
  .submit {
     text-decoration: none;
-    width: 12%;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border: 2px solid #FFFFFF;
     border-radius: 45px;
     font-size: 24px;
@@ -126,7 +127,7 @@ form .user-detail .input-box .details {
     color: #FFFFFF;
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
     margin-left: 600px;
-    position: fixed;
+    
     text-align: center;
  }
 
@@ -134,4 +135,8 @@ form .user-detail .input-box .details {
     background-color: #555; 
     color: white;
     cursor: pointer;
+ }
+ .wrap{
+    margin: auto;
+    max-width: 800px;
  }
