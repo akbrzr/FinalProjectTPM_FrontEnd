@@ -95,12 +95,14 @@ form .user-detail .input-box .details {
     font-weight: 300;
     justify-content: center;
     padding: 20px;
+    
  }
 
 .donthave2 {
+    color: #FFFFFF;
     padding: 0px 3px;
     cursor: pointer;
-    text-decoration:underline
+    text-decoration: underline
 }
 
 .donthave2:hover {
@@ -113,7 +115,8 @@ form .user-detail .input-box .details {
     margin-top: 40px;
 }
 
- .button input {
+ .submit {
+    text-decoration: none;
     width: 12%;
     padding: 10px 20px;
     border: 2px solid #FFFFFF;
@@ -124,10 +127,11 @@ form .user-detail .input-box .details {
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
     margin-left: 600px;
     position: fixed;
+    text-align: center;
  }
 
- .button:hover input {
-    background-color: #555;
+ .submit:hover {
+    background-color: #555; 
     color: white;
     cursor: pointer;
  }
