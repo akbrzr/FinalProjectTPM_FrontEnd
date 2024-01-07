@@ -7,7 +7,7 @@
     font-family: poppins;
  }
 
- :root {
+:root {
     --primary: #060A06;
     --font_nav: #FFFFFF;
     --lets_but: #352DEB;
@@ -114,7 +114,6 @@ form .user-detail .input-box .details {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-   
 }
 
  .submit {
@@ -127,7 +126,6 @@ form .user-detail .input-box .details {
     color: #FFFFFF;
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
     margin-left: 600px;
-    
     text-align: center;
  }
 
