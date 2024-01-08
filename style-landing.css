@@ -89,7 +89,7 @@ nav {
 }
 
 .lets {
-    background-color: var(--lets_but);
+    background: linear-gradient(to bottom, #FBFBFB, #352DEB);
     border: none;
     cursor: pointer;
     color: #FFFFFF;
