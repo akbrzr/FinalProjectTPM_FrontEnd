@@ -35,7 +35,6 @@ nav {
     justify-content: center;
 }
 
-
 .nav-button {
     background-color: transparent;
     border: none;
@@ -55,10 +54,7 @@ nav {
 }
 
 .nav1 {
-    margin-left: 1200px;
-}
-
-.nav2 {
+    margin-left: 1285px;
     font-weight: 700;
 }
 
@@ -112,11 +108,13 @@ nav {
 
 .container {
     font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
     display: block;
     margin: auto;
     height: 540px;
     width: 1535px;
-    margin-top: 30px;
+    margin-top: 60px;
     border-style: solid;
     padding: 50px 50px;
     font-family: Poppins;
@@ -125,101 +123,31 @@ nav {
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
 }
 
-.time {
-    text-align: center;
-    font-size: 48px;
-    font-weight: 500;
+ul {
+    list-style: none;
+    display: flex;
 }
 
-.asset {
-    margin: 30px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+ul .title {
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+ul .title1 {
+    padding-right: 100px;
+}
+
+.title2 {
+    margin-top: 15px;
 }
 
 .garis {
-    width: 300px;
-    height: 2.5px;
-    background-color: #FFFFFF;
+    height: 3px;
+    width: 1430px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.lingkaran {
-    width: 30px;
+.image {
     height: 30px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-}
-
-.list1 {
-    display: flex;
-    list-style: none;
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.list2 {
-    display: flex;
-    list-style: none;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.date {
-    padding: 0px 96px;
-}
-
-.date1 {
-    margin-left: 110px;
-}
-
-.date2 {
-    padding-right: 60px;
-    padding-left: 110px;
-}
-
-.date3 {
-    padding-left: 53px;
-    padding-right: 117px;
-}
-
-.date4 {
-    margin-right: 115px;
-}
-
-.list3 {
-    font-size: 24px;
-    font-weight: 300;
-    list-style: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 555px;
-}
-
-.list4 {
-    font-size: 24px;
-    font-weight: 300;
-    list-style: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 568px;
-}
-
-.x {
-    margin-top: 20px;
-    padding-left: 100px;
-}
-
-.z {
-    margin-top: 50px;
-    padding-left: 110px;
-}
-
+    width: 30px;
