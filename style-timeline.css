@@ -111,16 +111,80 @@ nav {
 }
 
 .container {
+    font-family: poppins;
     display: block;
     margin: auto;
     height: 540px;
     width: 1535px;
     margin-top: 30px;
     border-style: solid;
-    padding: 70px 50px;
+    padding: 50px 50px;
     font-family: Poppins;
     color: #FFFFFF;
     border-radius: 45px;
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
 }
 
+.time {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.asset {
+    margin: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.garis {
+    width: 300px;
+    height: 2.5px;
+    background-color: #FFFFFF;
+}
+
+.lingkaran {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.list1 {
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+}
+
+.list2 {
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+
+.date {
+    padding: 0px 96px;
+}
+
+.date1 {
+    /* padding: 0px 50px; */
+}
+
+.date2 {
+    /* padding: 0px 62px; */
+}
+
+.date3 {
+    /* padding: 0px 62px; */
+}
+
+.date4 {
+    /* padding: 0px 62px; */
+}
