@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style-register2.css">
     <title>Register2</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <section class="main">
@@ -52,15 +53,21 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Tanggal Lahir</span>
-                    <input type="text" placeholder="Masukkan Tanggal Lahir" required>
+                    <input type="date" placeholder="Masukkan Tanggal Lahir" required>
+                    <i data-feather="calendar" class="icon"></i>
                 </div>
                 <div class="input-box">
                     <span class="details">Upload CV</span>
-                    <input type="text" placeholder="Upload CV" required>
+                    <input type="file" id="cvUpload" class="upload" required>
+                    <i data-feather="upload-cloud" class="up" onclick="triggerFileInput('cvUpload')"></i>
+                    <span for="" class="format">*File formats: .pdf, .jpg, .jpeg and .png</span>
                 </div>
+                
                 <div class="input-box">
                     <span class="details">Upload Flazz Card</span>
-                    <input type="text" placeholder="Upload Flazz Card" required>
+                    <input type="file" id="flazzUpload" class="upload" required>
+                    <i data-feather="upload-cloud" class="up" onclick="triggerFileInput('flazzUpload')"></i>
+                    <span for="" class="format">*File formats: .pdf, .jpg, .jpeg and .png</span>
                 </div>
             </div>
             <div class="button">
@@ -69,5 +76,12 @@
             </div>
         </form>
     </div>
+
+    <script>
+    function triggerFileInput(inputId) {
+        document.getElementById(inputId).click();
+    }
+        feather.replace();
+      </script>
 </body>
 </html>
