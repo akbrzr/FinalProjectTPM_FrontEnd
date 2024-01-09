@@ -24,6 +24,8 @@
    background-position: center;
    background-repeat: no-repeat;
    background-position: bottom right;
+   background-attachment: fixed;
+   margin-bottom: 30px;
  }
 
  .main {

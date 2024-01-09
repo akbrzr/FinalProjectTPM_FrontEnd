@@ -17,9 +17,16 @@ html, body {
 }
 
 body {
-    background-color: var(--primary);
+    height: 100vh;
+    justify-content: center;
     align-items: center;
-    justify-content:center;
+    background-color: var(--primary);
+    background-image: url('/Image/image3.png');
+    background-size: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -35,8 +42,6 @@ body {
     z-index: 9999;
     border-bottom: 2px solid white;
 }
-
-
 
 .nav-button {
     background-color: transparent;

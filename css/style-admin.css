@@ -18,13 +18,15 @@ html, body {
 
 body {
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary);
-    background-image: url('/Image/image3.png');
-    background-size: 1300px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--primary);
+   background-image: url('/Image/image3.png');
+   background-size: 1300px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-attachment: fixed;
 }
 
 .image1:hover {

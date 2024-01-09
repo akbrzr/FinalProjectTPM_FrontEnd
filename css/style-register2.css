@@ -23,6 +23,7 @@
    background-position: center;
    background-repeat: no-repeat;
    background-position: bottom right;
+   background-attachment: fixed;
  }
 
  .main {
@@ -45,15 +46,14 @@
 .container {
    display: block;
    margin: auto;
-   margin-top: px;
    color: #FFFFFF;
    max-width: 734px;
-   max-height: 764px;
    width: 100%;
    padding: 30px 60px 60px 60px;
    border-radius: 45px;
    border: 1px solid #FFFFFF;
    background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
+   margin-bottom: 20px;
 }
 
  .container .title {
@@ -73,20 +73,20 @@
  .garis {
    width: 462px;
    height: 2.5px;
-   background-color: #FFFFFF;
+   background-color: #352DEB;
  }
 
- .lingkaran1 {
+ .lingkaran2 {
    width: 30px;
    height: 30px;
    background-color: #352DEB;
    border-radius: 50%;
 }
 
-.lingkaran2 {
+.lingkaran1 {
    width: 30px;
    height: 30px;
-   background-color: #FFFFFF;
+   background-color: #352DEB;
    border-radius: 50%;
 }
 
