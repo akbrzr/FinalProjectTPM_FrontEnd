@@ -21,10 +21,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--primary);
-    background-image: url('Image/image3.png');
+    background-image: url('/Image/image3.png');
     background-size: 1300px;
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+
+.image1:hover {
+    cursor: pointer;
 }
 
 nav {
@@ -34,7 +38,6 @@ nav {
     margin: 27px 0px;
     justify-content: center;
 }
-
 
 .nav-button {
     background-color: transparent;
@@ -55,7 +58,7 @@ nav {
 }
 
 .nav1 {
-    margin-left: 1200px;
+    margin-left: 1285px;
     font-weight: 700;
 }
 
@@ -108,77 +111,48 @@ nav {
 }
 
 .container {
-    font-family: Poppins;
-    line-height: 60px;
-    color: #FFFFFF; 
-    display: flex;
-    justify-content: center;
-}
-
-.container1 {
-    width: 750px;
-    height: 540px;
-    border-style: solid;
-    padding: 70px 50px;
-    margin-top: 30px;
-    margin-right: 50px;
-    border-radius: 45px;
-    background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
-}
-
-.title {
-    font-weight: 500;
-    font-size: 48px;
-}
-
-.title1 {
-    margin: 20px 0px;
-    font-weight: 500;
-    font-size: 28px;
-}
-
-.list1 li {
-    font-weight: 300;
+    font-family: poppins;
     font-size: 24px;
-    margin-left: 25px;
-    line-height: 40px;
-}
-
-.data {
-    width: 750px;
-    height: 250px;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    height: 540px;
+    width: 1535px;
+    margin-top: 60px;
     border-style: solid;
-    padding: 40px 50px;
-    margin-top: 30px;
+    padding: 50px 50px;
+    font-family: Poppins;
+    color: #FFFFFF;
     border-radius: 45px;
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul .title {
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+ul .title1 {
+    padding-right: 100px;
 }
 
 .title2 {
-    margin-bottom: 15px;
-    font-weight: 500;
-    font-size: 28px;
+    margin-top: 15px;
 }
 
-.list2 li {
-    font-weight: 300;
-    font-size: 24px;
-    margin-left: 25px;
-    line-height: 45px;
+.garis {
+    height: 3px;
+    width: 1430px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.contact {
-    width: 750px;
-    height: 250px;
-    border-style: solid;
-    padding: 40px 50px;
-    margin-top: 38px;
-    border-radius: 45px;
-    background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
-}
-
-.title3 {
-    margin-bottom: 15px;
-    font-weight: 500;
-    font-size: 28px;
+.image {
+    height: 30px;
+    width: 30px;
 }

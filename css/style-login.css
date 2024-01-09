@@ -23,7 +23,7 @@ body {
     align-items: center;
     padding: 10px;
     background-color: var(--primary);
-    background-image: url('Image/image3.png');
+    background-image: url('/Image/image3.png');
     background-size: 1300px;
     background-position: center;
     background-repeat: no-repeat;
