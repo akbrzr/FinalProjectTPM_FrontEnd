@@ -22,13 +22,20 @@ body {
     justify-content:center;
 }
 
-nav {
+.navbar {
     display: flex;
     align-items: center;
     margin-left: 0px;
     margin: 27px 0px;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 2px solid white;
 }
+
 
 
 .nav-button {
@@ -79,7 +86,7 @@ nav {
     font-family: poppins;
     font-size: 110px;
     font-weight: 500;
-    margin: 70px 0px 0px;
+    margin: 100px 0px 0px;
     margin-right: 820px;
     display: flex;
     justify-content: center;
