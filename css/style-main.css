@@ -17,31 +17,19 @@ html, body {
 }
 
 body {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-color: var(--primary);
-    background-image: url('/Image/image3.png');
-    background-size: 1300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-attachment: fixed;
+    align-items: center;
+    justify-content:center;
 }
 
-.navbar {
+nav {
     display: flex;
     align-items: center;
     margin-left: 0px;
     margin: 27px 0px;
     justify-content: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 9999;
-    border-bottom: 2px solid white;
 }
+
 
 .nav-button {
     background-color: transparent;
@@ -91,7 +79,7 @@ body {
     font-family: poppins;
     font-size: 110px;
     font-weight: 500;
-    margin: 100px 0px 0px;
+    margin: 70px 0px 0px;
     margin-right: 820px;
     display: flex;
     justify-content: center;
