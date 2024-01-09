@@ -51,7 +51,7 @@
    margin-top: px;
    color: #FFFFFF;
    max-width: 734px;
-   max-height: 764px;
+   max-height: 780px;
    width: 100%;
    padding: 30px 60px 60px 60px;
    border-radius: 45px;
@@ -192,4 +192,24 @@ input[type="radio"]:checked + label:before {
 
 .submit:hover{
    background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
+}
+
+.donthave {
+   display: flex;
+   font-size: 12px;
+   font-weight: 300;
+   justify-content: center;
+   padding: 20px;
+   
+}
+
+.donthave2 {
+   color: #FFFFFF;
+   padding: 0px 3px;
+   cursor: pointer;
+   text-decoration: underline
+}
+
+.donthave2:hover {
+   color: #555;
 }
