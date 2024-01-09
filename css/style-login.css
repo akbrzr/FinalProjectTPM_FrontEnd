@@ -130,4 +130,17 @@ form .user-detail .input-box .details {
  .submit:hover{
     background: linear-gradient(to bottom, #FFFFFF33 20%, #352DEB1A 100%);
  }
- 
+
+ .input-box {
+    position: relative;
+ }
+
+.input-box .far {
+    position: absolute;
+    right: 15px;
+    top: 60%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+input[type="password"]::-ms-reveal {display : none ;}

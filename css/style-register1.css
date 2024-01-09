@@ -213,3 +213,17 @@ input[type="radio"]:checked + label:before {
 .donthave2:hover {
    color: #555;
 }
+
+.input-box {
+   position: relative;
+}
+
+.input-box .far {
+   position: absolute;
+   right: 15px;
+   top: 60%;
+   cursor: pointer;
+   z-index: 1;
+}
+
+input[type="password"]::-ms-reveal {display : none ;}

@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="/css/style-login.css">
     <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,8 +26,9 @@
                     <input type="text" placeholder="Masukkan nama group" required>
                 </div>
                 <div class="input-box">
-                    <span class="details">Password</span>
-                    <input type="text" placeholder="Masukkan password" required>
+                    <span class="details">Password</span>   
+                    <input type="password" id="fakePassword" placeholder="Masukkan Password"/>
+                    <span><i id="toggler"class="far fa-eye"></i></span>
                 </div>
             </div>
 
@@ -43,6 +45,20 @@
     </div>
 
     <script>
+        var password = document.getElementById('fakePassword');
+        var toggler = document.getElementById('toggler');
+        showHidePassword = () => {
+        if (password.type == 'password') {
+        password.setAttribute('type', 'text');
+        toggler.classList.add('fa-eye-slash');
+        } else {
+        toggler.classList.remove('fa-eye-slash');
+        password.setAttribute('type', 'password');
+        }
+        };
+        toggler.addEventListener('click', showHidePassword);
+
+
         feather.replace();
       </script>
 </body>
